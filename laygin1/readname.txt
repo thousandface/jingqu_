@@ -1,0 +1,32 @@
+﻿
+下载的词向量和自己训练的字向量放在当前文件夹
+-------------------------------------------------------
+请按顺序运行以下下python文件
+
+stacking_nn_0560.py
+stacking_nn_24.py
+1）运行完毕
+     在当前文件夹得到两个stacking的中间结果
+       1.full_dataset_train_blends.csv（stacking_nn_0560.py）
+	     full_models_pred.csv
+       2.dataset_train_blends_con_4_2.csv(stacking_nn_24.py)
+	     models_pred_con_4_2.csv
+     在当前文件夹生成训练和测试数据集，用于后面模型训练
+        full_tobe_classify_180316.csv
+	    full_same_dis_filled_180316.csv
+	    full_unknown_dis_filled_180316.csv
+
+
+
+----------------------------------------------
+注：由于nn训练太久，中间文件已经包含在上传的文件中，可以直接运行下面的两个文件，上面两个py文件可以不运行
+
+stacking_jieguo_0560.py
+stacking_jieguo_24.py
+2）运行完毕
+     在当前文件夹生成两个stacking的结果文件，用于最后结果融合
+       preds_final_stacking_24.csv
+       preds_final_stacking_4_0560.csv
+
+
+	 
